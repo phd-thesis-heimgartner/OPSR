@@ -814,7 +814,7 @@ and all packages used are available from the Comprehensive
 \proglang{R} Archive Network (CRAN) at
 \url{https://CRAN.R-project.org/}.
 
-Please note that slight differences in the results might occur depending on the platform. The results presented here were generated on \Sexpr{R.version$platform}.
+Please note that slight differences in the results might occur depending on the platform. The results presented here were generated on \Sexpr{gsub("_", "\\\\_", R.version$platform, fixed = TRUE)}.
 
 
 \section*{Acknowledgments}
